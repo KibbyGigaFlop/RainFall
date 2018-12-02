@@ -32,7 +32,7 @@ public class RainFall{ //class header
   @param accepts data from the main for user input
   
   */
-  public static void calculations(String[] monthNames, double[] rainData){//accepts references to the months and rainfallData arrays
+  private static void calculations(String[] monthNames, double[] rainData){//accepts references to the months and rainfallData arrays
 
   double avgRain; // holds the average rain
   double totalRain; //holds the total rain
@@ -82,7 +82,7 @@ public class RainFall{ //class header
   @return the double to calculations
   
   */
-  public static double totalRainfall(double[] data1){//references to the rainData array
+  private static double totalRainfall(double[] data1){//references to the rainData array
   
   double total = 0;
   
@@ -101,7 +101,7 @@ public class RainFall{ //class header
   @return the double to calculations method
   
   */
-  public static double averageRainfall(double[] data2){//references to rainData array
+  private static double averageRainfall(double[] data2){//references to rainData array
   
   double total2 = 0;
   
@@ -123,7 +123,7 @@ public class RainFall{ //class header
   @param accepts data from the main
   
   */
-  public static void GreaterandLeast(double[] data3, String[] names){//accepts references of rainfallData and months arrays
+  private static void GreaterandLeast(double[] data3, String[] names){//accepts references of rainfallData and months arrays
   
   double greatest = data3[0]; //sets greatest to the first element of the array
   String greaterMonth = names[0];//sets greaterMonth to the first elemenet of the array
